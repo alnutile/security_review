@@ -4,7 +4,7 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleTest extends TestCase
+class ExposeTest extends TestCase
 {
     public function testPost()
     {
@@ -18,6 +18,6 @@ class ExampleTest extends TestCase
                 )
         );
 
-        $this->call('POST', '/post', $data);
+        $this->call('POST', 'expose', $data);
     }
 }

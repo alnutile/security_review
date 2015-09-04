@@ -4,6 +4,10 @@
 
 Coming soon...
 
+## Setup
+
+I default to `https://security_review.dev:44300/`
+Which may not matter over all.
 
 
 ## Expose

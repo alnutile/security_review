@@ -16,19 +16,16 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="security_review" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/enygma/expose/src/Expose/Manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43665767" vertical-offset="151" max-vertical-offset="893">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.61990213">
+              <caret line="126" column="61" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -39,14 +36,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/ExposeMiddleware.php" />
         <option value="$PROJECT_DIR$/tests/ExampleTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/tests/ExposeTest.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/ExposeMiddleware.php" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <gulpfiles>
@@ -55,12 +55,15 @@
       </GulpfileState>
     </gulpfiles>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="805" />
-    <option name="y" value="101" />
-    <option name="width" value="1053" />
-    <option name="height" value="777" />
+    <option name="x" value="1126" />
+    <option name="y" value="167" />
+    <option name="width" value="1245" />
+    <option name="height" value="1248" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -86,6 +89,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,36 +203,41 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../security_review2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -244,21 +253,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="805" y="101" width="1053" height="777" extended-state="0" />
-    <editor active="false" />
+    <frame x="1126" y="167" width="1245" height="1248" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27871487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -272,18 +281,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/ExampleTest.php</url>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -291,23 +290,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="893">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1441392555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <marker date="1441392555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/enygma/expose/src/Expose/Log/Mongo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41263157" vertical-offset="355" max-vertical-offset="4313">
+        <state vertical-scroll-proportion="0.41263157">
           <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8374656" vertical-offset="627" max-vertical-offset="2337">
+        <state vertical-scroll-proportion="0.8374656">
           <caret line="53" column="5" selection-start-line="37" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
           <folding />
         </state>
@@ -315,55 +339,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9469273" vertical-offset="3869" max-vertical-offset="17024">
+        <state vertical-scroll-proportion="3.9469273">
           <caret line="285" column="20" selection-start-line="285" selection-start-column="20" selection-end-line="285" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/ExposeMiddleware.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6749312" vertical-offset="0" max-vertical-offset="741">
-          <caret line="32" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1441392075000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder=" The Guard implementation. ..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder=" Create a new filter instance. ..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder=" The base URL to use while testing the application. ..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder=" Creates the application. ..." />
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2512235">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1441392075000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34094617">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" The application's global HTTP middleware stack. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" The application's route middleware. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3588907">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1441392555000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392555000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ExposeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37683523">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1441392798000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441392798000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392798000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441392798000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441392798000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2512235">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30727762" vertical-offset="0" max-vertical-offset="371">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.16150081">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <marker date="1441393234000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441393234000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441393234000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441393234000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1441393234000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/ExposeMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07816712" vertical-offset="85" max-vertical-offset="513">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.44861338">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <marker date="1441393274000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1441393274000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1441393274000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1441393274000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/vendor/enygma/expose/src/Expose/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7906336" vertical-offset="93" max-vertical-offset="760">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43665767" vertical-offset="151" max-vertical-offset="893">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.61990213">
+          <caret line="126" column="61" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="61" />
           <folding />
         </state>
       </provider>

@@ -18,6 +18,7 @@ class ExposeMiddleware
     public function handle($request, Closure $next)
     {
         $filters = new \Expose\FilterCollection();
+
         $filters->load();
 
         $logger = App::make('log');

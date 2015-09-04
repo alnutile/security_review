@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/post', function() {
+Route::post('expose', function() {
 
     return "Yo";
 });
